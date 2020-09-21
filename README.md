@@ -8,6 +8,7 @@ Install JDK (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 Terminal commands for tools installation :
 
+```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew install node or sudo npm cache clean -f && sudo npm install -g n && sudo n 9.8.0 (https://nodejs.org/en/download/releases/)
@@ -21,6 +22,7 @@ brew install ideviceinstaller --HEAD
 brew install carthage --HEAD
 
 npm install -g appium (or ...@specific version)
+```
 
 Setup Android
 
@@ -29,9 +31,11 @@ Run the android tool (included in the SDK/tools folder) and make sure an API Lev
 Add the ANDROID_HOME to PATH variable.
 Android uninstall server from device :
 
+```bash
 adb uninstall io.appium.uiautomator2.server
 adb uninstall io.appium.uiautomator2.server.test
 adb commands
+```
 
 https://www.androidcentral.com/10-basic-terminal-commands-you-should-know
 adb shell pm list packages - http://adbshell.com/commands/adb-shell-pm-list-packages
