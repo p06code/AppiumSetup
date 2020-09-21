@@ -26,10 +26,10 @@ npm install -g appium (or ...@specific version)
 
 Setup Android
 
-Download SDK from Android SDK.
-Run the android tool (included in the SDK/tools folder) and make sure an API Level 17 or greater SDK platform, Google Driver, SDK Tools and SDK platform-tools are installed.
-Add the ANDROID_HOME to PATH variable.
-Android uninstall server from device :
+1. Download SDK from Android SDK.
+2. Run the android tool (included in the SDK/tools folder) and make sure an API Level 17 or greater SDK platform, Google Driver, SDK Tools and SDK platform-tools are installed.
+3. Add the ANDROID_HOME to PATH variable.
+4. Android uninstall server from device :
 
 ```bash
 adb uninstall io.appium.uiautomator2.server
